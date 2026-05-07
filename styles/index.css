@@ -1,1 +1,13 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+
+
+.body {
+   font-family: 'Roboto', sans-serif;
+}
+
+@layer components {
+   .container {
+      @apply mx-auto px-5 max-w-300;
+   }
+}

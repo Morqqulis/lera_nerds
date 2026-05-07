@@ -4,14 +4,33 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
    <link rel="stylesheet" href="./styles/index.css">
-   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
-   <script src="./js/index.js" defer></script>
+   <script src="./js/index.js" type="module" defer></script>
    <title>Nerds</title>
 </head>
+
 <body>
 
+   <header class="pt-12">
+      <div class="container mx-auto px-5 max-w-300 flex justify-between items-center gap-4">
+         <a href="#">
+            <img src="./images/logo.svg" alt="Logo">
+         </a>
 
+         <ul class="flex items-center gap-11">
+            <li><a class="uppercase font-medium" href="#">Студия</a></li>
+            <li><a class="uppercase font-medium" href="#">Клиенты</a></li>
+            <li><a class="uppercase font-medium" href="#">Магазин</a></li>
+            <li><a class="uppercase font-medium" href="#">Контакты</a></li>
+         </ul>
+
+         <button class="flex items-center gap-6">
+            <img src="./images/cart-icon.svg" alt="Корзина">
+            КОРЗИНА
+         </button>
+      </div>
+   </header>
 
 
 
